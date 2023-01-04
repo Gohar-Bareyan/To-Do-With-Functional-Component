@@ -1,0 +1,19 @@
+table {
+    width: 80% !important;
+    margin: auto;
+
+    .deleted_text {
+        text-decoration: line-through;
+    }
+}
+
+.no_toDo {
+    color: #DC3545;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

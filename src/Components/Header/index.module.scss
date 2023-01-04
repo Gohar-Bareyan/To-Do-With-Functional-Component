@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.add_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    .add_todo_list_input {
+        margin-top: 20px;
+        height: 30px;
+        width: 300px;
+
+        &::placeholder {
+            padding-left: 10px;
+        }
+    }
+}
